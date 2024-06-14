@@ -1,3 +1,102 @@
+.body {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/lakerschampssssss.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    font-family: 'SlamDunk';
+    src: url('../fonts/slam-dunk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 900px;
+    margin: 13px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header {
+    padding: 20px;
+    font-size: large;
+    color: rgb(255, 0, 0);
+    position: relative;
+}
+
+.header .logo {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 90px; /* Adjust the size of the logo */
+    height: auto;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+}
+
+.footer {
+    background-color: #333;
+    color: #950606;
+    padding: 10px; /* Adjusted padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px; /* Adjusted height for thin footer */
+    line-height: 20px; /* Vertically center text in footer */
+    margin: 0;
+}
+
+.h1 {
+    margin-bottom: 100px;
+}
+
+.header {
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 480px;
+    margin-right: 300px;
+    bottom: px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.right-side {
+    padding-left: 400px;
+}
+
+.btn, .btn-secondary {
+
+    padding: 12px 65px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 8px 9px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+    margin: 380px 300px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover, .btn-secondary:hover {
+    background-color: #280177;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+}
 /* Global Reset and Setup */
 * {
     box-sizing: border-box;
@@ -10,26 +109,33 @@ body {
     background: url('../img/lakerschampssssss.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
-    line-height: 1.6;
-    overflow: hidden; /* Prevent scroll bars */
+    line-height: 1.5;
+
+}
+main section p {
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    margin-top: 30rem;
+    font-size: 16px;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px;
 }
 
 .header {
-    font-family: 'SlamDunk';
-    src: url('../fonts/slam-dunk.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    background-color: #d9fa33; /* Light background color for header */
+    background-color: #aac61e; /* Light background color for header */
     padding: 3px;
     text-align: center;
     box-shadow: 0 2px 4px rgb(0, 0, 0); /* Subtle shadow */
 }
 
 .header .logo {
-    width: 300px; /* Adjusted size of the logo */
+    width: 100px; /* Adjusted size of the logo */
     height: auto;
-    display: block;
-    margin: 0 auto;
+    border-radius: 50%; /* Rounded logo */
 }
 
 .header h1 {
@@ -44,41 +150,14 @@ body {
     color: #210c7e; /* Subdued color for subtitle */
 }
 
-main section p {
-    background-color: #b9d334; /* Light background color for announcement */
-    color: rgb(255, 0, 0);
-    padding: 10px;
-    margin: 20px 0;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.content {
-    text-align: center;
-    padding: 20px;
-}
-
-.btn, .btn-secondary {
-    display: inline-block;
-    padding: 12px 65px;
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: all 0.25s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-}
-
-.btn:hover, .btn-secondary:hover {
-    background-color: #280177;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+.header p {
+    font-size: 1rem; /* Smaller font size for description */
+    margin-bottom: 20px; /* Spacing below description */
 }
 
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Dark background color for footer */
+    color: #fff; /* Light text color for footer */
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -87,5 +166,26 @@ main section p {
 }
 
 .footer p {
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* Smaller font size for footer text */
 }
+
+/* Hover Effect */
+.hover {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem; /* Adjusted font size */
+    color: rgba(255, 255, 255, 0.3); /* Light text color */
+    transition: all 0.4s ease;
+}
+
+.hover::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.hover:hover {
+    background: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    color: #ffc600; /* Accent color on hover */
+}
+
