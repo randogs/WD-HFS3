@@ -1,0 +1,91 @@
+/* Global Reset and Setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url('../img/lakerschampssssss.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow: hidden; /* Prevent scroll bars */
+}
+
+.header {
+    font-family: 'SlamDunk';
+    src: url('../fonts/slam-dunk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    background-color: #d9fa33; /* Light background color for header */
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0); /* Subtle shadow */
+}
+
+.header .logo {
+    width: 300px; /* Adjusted size of the logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 2rem; /* Larger font size for main header */
+    box-shadow: rgb(255, 255, 255) 3px 3px 6px 0px inset, rgba(0, 132, 255, 0.5) -3px -3px 6px 1px inset; 
+    margin-bottom: 10px;
+    color: #0c0404; /* Darker color for header text */
+}
+
+.header h2 {
+    font-size: 1.8rem; /* Slightly smaller font size for subtitle */
+    color: #210c7e; /* Subdued color for subtitle */
+}
+
+main section p {
+    background-color: #b9d334; /* Light background color for announcement */
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn, .btn-secondary {
+    display: inline-block;
+    padding: 12px 65px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.btn:hover, .btn-secondary:hover {
+    background-color: #280177;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
