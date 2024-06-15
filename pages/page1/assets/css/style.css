@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header-wrap-one .logo img{
-    width: 120px; /* Add your desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 120px;
+    height: auto;
 }
 
 .header-wrap-one .navigation, .header-wrap-one .menu-toggle{
@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header-wrap-three .logo img{
-    width: 120px; /* Add your desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 120px;
+    height: auto;
 }
 
 .header-wrap-three .icons .fa:first-of-type{
@@ -257,8 +257,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header-wrap-five .logo img{
-    width: 120px; /* Add your desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 120px;
+    height: auto;
 }
 
 .header-wrap-five .navigation{
@@ -360,3 +360,29 @@ h1, h2, h3, h4, h5, h6{
         float: none;
     }
 }
+
+.header .container {
+    position: relative;
+}
+
+.button-container {
+    position: absolute;
+    top: 100;
+    left: 100px;
+}
+
+.back-button {
+
+    padding: 1.5px 50px;
+    background-color: rgb(100, 70, 70);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.back-button:hover {
+    background-color: rgb(14, 1, 1);
+}
+

@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    var menu = "close";
-    $(".menu-toggle").click(function() {
+  var menu = "close";
+  $(".menu-toggle").click(function() {
+      var mobileNav = $(this).next(".mobile-nav");
       if (menu === "close") {
-        $(this).next(".mobile-nav").css("display", "block");
-        menu = "open";
+          mobileNav.fadeIn(300); 
+          menu = "open";
       } else {
-        $(this).next(".mobile-nav").css("display", "none");
-        menu = "close";
+          mobileNav.fadeOut(200); 
+          menu = "close";
       }
-    });
-
   });
+});
