@@ -6,7 +6,8 @@
 <div align="center">
   <a href="https://github.com/randogs/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1200px-Los_Angeles_Lakers_logo.svg.png" alt="Nyebe" width="130" height="100">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1200px-Los_Angeles_Lakers_logo.svg.png"
+    " alt="HFS3" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">L . A</h3>
@@ -20,7 +21,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=randogs/WD-HFS3)
+![](https://visit-counter.vercel.app/counter.png?page=randogs/WD-HFS3-Project)
 
 ---
 
@@ -118,3 +119,5 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+resources: https://codepen.io/trending
