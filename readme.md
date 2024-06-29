@@ -113,5 +113,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|codepen|help me build my index.html| https://codepen.io/trending|
+|-|-|-|
+| codepen | help me build my website | https://codepen.io/ |
 
