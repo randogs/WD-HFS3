@@ -71,7 +71,7 @@ Guiding Question:
 - the technology i used html and css 
 
 ### Key Components
--design and theme -implementation of designs -navigations
+-design and theme, implementation of designs, navigations.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,5 +117,5 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-resources: https://codepen.io/trending
+|codepen|help me build my index.html| https://codepen.io/trending|
+
