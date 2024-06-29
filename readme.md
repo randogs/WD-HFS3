@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/randogs/">
+  <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1200px-Los_Angeles_Lakers_logo.svg.png"
     " alt="HFS3" width="130" height="100">
@@ -21,7 +21,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=randogs/WD-HFS3-Project)
+![](https://visit-counter.vercel.app/counter.png?page=randogs/WD-HFS3)
 
 ---
 
@@ -62,16 +62,18 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+- it's all about the static and animated headers which i showcase on my website 
 - Whats the purpose
+- the purpose would be how to implement and how can i show my animations on my websites
 - What are key components
+- the key components would be 5 animated and static designs 
 - What technology used and how it is used
+- the technology i used html and css 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+-design and theme 
+-implementation of designs 
+-navigations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -118,6 +120,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-
 resources: https://codepen.io/trending
