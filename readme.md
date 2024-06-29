@@ -61,14 +61,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- it's all about the static and animated headers which i showcase on my website 
-- Whats the purpose
-- the purpose would be how to implement and how can i show my animations on my websites
-- What are key components
-- the key components would be 5 animated and static designs 
-- What technology used and how it is used
-- the technology i used html and css 
+- What is the project- it's all about the static and animated headers which i showcase on my website 
+- Whats the purpose- the purpose would be how to implement and how can i show my animations on my websites
+- What are key components- the key components would be 5 animated and static designs 
+- What technology used and how it is used- the technology i used html and css 
 
 ### Key Components
 -design and theme, implementation of designs, navigations.
